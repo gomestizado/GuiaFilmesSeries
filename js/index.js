@@ -6,7 +6,7 @@ let result = document.getElementById("result");
 
 let getMovie = () => {
   let movieName = movieNameRef.value;
-  let url = `http://www.omdbapi.com/?t=${movieName}&apikey=${key}`;
+  let url = `https://www.omdbapi.com/?t=${movieName}&apikey=${key}`;
 
   //se o campo de entrada estiver vazio
   if (movieName.length <= 0) {
