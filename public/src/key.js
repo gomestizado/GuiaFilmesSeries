@@ -1,3 +1,3 @@
 //key da api
 
-key = ${{secrets.KEY}};
+key = ${secrets.KEY};
